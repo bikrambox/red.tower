@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes" ?>
+<!DOCTYPE student [
+   <!ELEMENT info (RegistrationID,name,company,phone)>
+   <!ELEMENT RegistrationID (#PCDATA)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT company (#PCDATA)>
+   <!ELEMENT phone (#PCDATA)>
+]>
+
+<student>
+   <name>Tanmay Patil</name>
+   <company>TutorialsPoint</company>
+   <phone>(011) 123-4567</phone>
+</student>

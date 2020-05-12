@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+    <!-- Obtain stylesheet. Note that the xml file & css file should be in the same directory/location -->
+    <?xml-stylesheet type="text/css" href="stylo.css" ?>
+        <student>
+            Student 1 details:
+                <info>
+                    RegistrationID:<RegistrationID>1AB10EC002</RegistrationID>
+                    Name:<Name>abc</Name>
+                    NOC:<NOC>AB</NOC>
+                    Branch:<Branch>ECE</Branch>
+                    Year Of Joining:<yoj>2010</yoj>
+                    Email:<Email>abc@samp.com</Email>
+                </info>
+            Student 2 details:
+                <info>
+                    RegistrationID:<RegistrationID>1PQ10CS025</RegistrationID>
+                    Name:<Name>pqr</Name>
+                    NOC:<NOC>PQ</NOC>
+                    Branch:<Branch>CSE</Branch>
+                    Year Of Joining:<yoj>2010</yoj>
+                    Email:<Email>pqr@samp.com</Email>
+                </info>
+            Student 3 details:
+                <info>
+                    RegistrationID:<RegistrationID>1XY10IS005</RegistrationID>
+                    Name:<Name>xyz</Name>
+                    NOC:<NOC>XY</NOC>
+                    Branch:<Branch>ISE</Branch>
+                    Year Of Joining:<yoj>2010</yoj>
+                    Email:<Email>xyz@samp.com</Email>
+                </info>
+        </student>
