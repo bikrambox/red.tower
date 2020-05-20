@@ -4,79 +4,12 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Bikram rongpi">
 
-	<title>assignment</title>
-	<script type="text/javascript">
-	  function report()
-	  {
-          var name = document.getElementById('name').value;
-          var m1 = document.getElementById('softwareengineering').value;
-          var m2 = document.getElementById('oracle').value;
-          var m3 = document.getElementById('computernetwork').value;
-          var m4 = document.getElementById('ita').value;
-          var m5 = document.getElementById('ai').value;
+	<title>Mark Table</title>
 
-          var total1 = document.getElementById('tot');
-          var averagemarks = document.getElementById('avg');
-          var name1 = document.getElementById('na');
-          var res1 = document.getElementById('res');
-          var grd1 = document.getElementById('grd');
-
-           var grade;
-          var graderesult;
-
-          if(m1<30 || m2<30 || m3<30 || m4<30 || m5<30)
-          {
-          		 name1.innerHTML = name;
-                 grd1.innerHTML = "D";
-                 res1.innerHTML = "Fail";
-          }
-          else
-          {
-          	 name1.innerHTML = name;
-          var tottalmarks = +m1+ +m2+ +m3+ +m4+ +m5;
-          total1.innerHTML = tottalmarks;
-          //alert(total1);
-          var average = tottalmarks / 5;
-          //average
-           averagemarks.innerHTML = average;
-
-     	  //grade
-           if( average >= 75)
-           {
-
-           	     grade = "A+";
-           	     graderesult = "Pass";
-           }
-			else if(average >= 60 & average < 75)
-           {
-                grade = "A";
-                graderesult = "Pass";
-           }
-           else if(average >= 50 & average < 60)
-           {
-           		grade = "B";
-           		graderesult = "Pass";
-           }
-
-           else if (average >= 30 & average <50)
-           {
-           	    grade = "C";
-           	    graderesult = "Pass";
-           }
-
-           else if(average < 30)
-           {
-              grade = "D";
-              graderesult = "Fails";
-           }
-
-           res1.innerHTML= graderesult;
-           grd1.innerHTML = grade;
-          }
-	  }
-</script>
+<script type="text/javascript" src="script.js"></script>
 <link  rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 <div class="form1">
 	<h2  style="padding: 5px;">Department of Computer Application</h2>
@@ -92,7 +25,7 @@
 			<tr><td  style="padding: 5px;">Internet Technology and Application</td><td  style="padding: 5px;"><input type="number"    id="ita"></td></tr>
 			<tr><td  style="padding: 5px;">Artificial Intelligence</td><td  style="padding: 5px;"><input type="number"     id="ai"></td></tr>
 
-			<tr><td colspan="2"  style="padding: 5px;"><button onclick="report()" style="margin-left: 80%; border-radius: 25px; background: red; font-weight: bold; color: #fff;">submit</button></td> </tr>
+			<tr><td colspan="2"  style="padding: 5px;"><button onclick="report()" style="margin-left: 80%; background: #d92027; font-weight: bold; color: #fff;">submit</button></td> </tr>
 		</table>
 
 	</form>
@@ -101,7 +34,7 @@
 
 <div class="form2">
 
-	<table border="2" style="padding: 10px; background: lightgreen;">
+	<table border="2" style="padding: 10px; background: #d63447;">
 		<tr><th colspan="2" style="padding: 10px;">Result</th></tr>
 		<tr ><td  style="padding: 5px;">Name</td><td style="padding: 5px;"><p id="na"></p></td></tr>
 		<tr><td style="padding: 5px;">Total Mark</td><td style="padding: 5px;"><p id="tot"></p></td></tr>

@@ -1,10 +1,10 @@
 body
 	{
-		background: url("3.jpg");
+		background: #fff56f;
 	}
 	.form1
 	{
-		background: lightblue;
+		background: #fff56f;
 		align-items: center;
 		width: 40%;
 		padding: 10px;
