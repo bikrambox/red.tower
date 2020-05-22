@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Bikram rongpi">
+
+	<title>Mark Table</title>
+
+<script type="text/javascript" src="script.js"></script>
+<link  rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="form1">
+	<h2  style="padding: 5px;">Department of Computer Application</h2>
+	<form action="#">
+		<table border="2" style="padding: 1px; ">
+			<tr><th colspan="2"  style="padding: 5px;">Student Progressive report</th></tr>
+			<tr><td style="padding: 5px;">Name</td><td  style="padding: 5px;"><input   type="text"  value=""   required  id="name" ></td></tr>
+			<tr><th colspan="2"  style="padding: 5px;">Enter your Marks</th></tr>
+
+			<tr><td  style="padding: 5px;">Software Engineering</td><td  style="padding: 5px;"><input type="number"     id="softwareengineering"></td></tr>
+			<tr><td  style="padding: 5px;">Oracle</td><td  style="padding: 5px;"><input type="number" name="" id="oracle"></td></tr>
+			<tr><td  style="padding: 5px;">Computer Network-II</td><td  style="padding: 5px;"><input type="number"    id="computernetwork"></td></tr>
+			<tr><td  style="padding: 5px;">Internet Technology and Application</td><td  style="padding: 5px;"><input type="number"    id="ita"></td></tr>
+			<tr><td  style="padding: 5px;">Artificial Intelligence</td><td  style="padding: 5px;"><input type="number"     id="ai"></td></tr>
+
+			<tr><td colspan="2"  style="padding: 5px;"><button onclick="report()" style="margin-left: 80%; background: #d92027; font-weight: bold; color: #fff;">submit</button></td> </tr>
+		</table>
+
+	</form>
+
+</div>
+
+<div class="form2">
+
+	<table border="2" style="padding: 10px; background: #d63447;">
+		<tr><th colspan="2" style="padding: 10px;">Result</th></tr>
+		<tr ><td  style="padding: 5px;">Name</td><td style="padding: 5px;"><p id="na"></p></td></tr>
+		<tr><td style="padding: 5px;">Total Mark</td><td style="padding: 5px;"><p id="tot"></p></td></tr>
+		<tr><td style="padding: 5px;">Average Mark</td><td style="padding: 5px;"><p id="avg"></p></td></tr>
+		<tr><td style="padding: 5px;">Result</td><td style="padding: 5px;" ><p id="res"></p></td></tr>
+		<tr><td  style="padding: 5px;">Grade</td><td  style="padding: 5px;"><p id="grd"></p></td></tr>
+	</table>
+
+</div>
+</body>
+</html>

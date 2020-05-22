@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+
+    <?xml-stylesheet type="text/css" href="style.css" ?>
+
+        <student>
+            Student 1 details:
+                <info>
+                    RegistrationID:<regID>MCA1801</regID>
+                    Name:<name>Bikram rongpi</name>
+                    Name Of College:<coll>NEHU</coll>
+                    Branch:<branch>MCA</branch>
+                    Year Of Joining:<yoj>2010</yoj>
+                    Email-ID:<email>bikram.rongpi@gmail.com</email>
+                </info>
+
+            Student 2 details:
+                <info>
+                    RegistrationID:<regID>MCA1817</regID>
+                    Name:<name>Themboi</name>
+                    Name Of College:<coll>NEHU</coll>
+                    Branch:<branch>MCA</branch>
+                    Year Of Joining:<yoj>2010</yoj>
+                    Email-ID:<email>themboiyo@gmail.com</email>
+                </info>
+
+            Student 3 details:
+                <info>
+                    RegistrationID:<regID>MCA1800</regID>
+                    Name:<name>Justin khatariya</name>
+                    Name Of College:<coll>NEHU</coll>
+                    Branch:<branch>MCA</branch>
+                    Year Of Joining:<yoj>2010</yoj>
+                    Email-ID:<email>Justink@gmail.com</email>
+                </info>
+        </student>

@@ -1,0 +1,12 @@
+ /* Define styling properties for each tag of the xml file */
+ BOOK {  margin-top: 300px;
+            font-weight:bold;
+            color:black;
+            background: #f4eeff;
+            text-align: center;
+}
+ info {display:block;margin-left:19px;color:gray;}
+ name {color:#eb4559;font-size:15pt;}
+ regID {color:#ffa41b;font-size:15pt;}
+ coll, branch {color:#f78259;font-size:15pt;}
+ yoj, email {color:#4d4c7d;font-size:15pt;}

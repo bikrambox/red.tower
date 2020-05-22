@@ -1,14 +1,33 @@
-<?xml version = "1.0" encoding = "UTF-8" standalone = "yes" ?>
-<!DOCTYPE student [
-   <!ELEMENT info (RegistrationID,name,company,phone)>
-   <!ELEMENT RegistrationID (#PCDATA)>
-   <!ELEMENT name (#PCDATA)>
-   <!ELEMENT company (#PCDATA)>
-   <!ELEMENT phone (#PCDATA)>
-]>
+<?xml version="1.0" ?>
+    <!-- Obtain stylesheet. Note that the xml file & css file should be in the same directory/location -->
+    <?xml-stylesheet type="text/css" href="style.css" ?>
 
-<student>
-   <name>Tanmay Patil</name>
-   <company>TutorialsPoint</company>
-   <phone>(011) 123-4567</phone>
-</student>
+        <student>
+            Student 1 details:
+                <info>
+                    USN:<usn>1AB10EC002</usn>
+                    Name:<name>abc</name>
+                    College:<coll>AB</coll>
+                    Branch:<branch>ECE</branch>
+                    Year Of Joining:<yoj>2010</yoj>
+                    Email-ID:<email>abc@samp.com</email>
+                </info>
+            Student 2 details:
+                <info>
+                    USN:<usn>1PQ10CS025</usn>
+                    Name:<name>pqr</name>
+                    College:<coll>PQ</coll>
+                    Branch:<branch>CSE</branch>
+                    Year Of Joining:<yoj>2010</yoj>
+                    Email-ID:<email>pqr@samp.com</email>
+                </info>
+            Student 3 details:
+                <info>
+                    USN:<usn>1XY10IS005</usn>
+                    Name:<name>xyz</name>
+                    College:<coll>XY</coll>
+                    Branch:<branch>ISE</branch>
+                    Year Of Joining:<yoj>2010</yoj>
+                    Email-ID:<email>xyz@samp.com</email>
+                </info>
+        </student>

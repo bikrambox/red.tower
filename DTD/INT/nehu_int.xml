@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an Example of a Comment.
+Made with <3 by Bikram rongpi
+STUDENT_Info_by_Bikram_FOR_NEHU
+
+-->
+
+<!DOCTYPE STUDENT_Info_by_Bikram [
+
+<!ELEMENT STUDENT (INFO*) >
+<!ELEMENT INFO (RegistrationID,Name,NameOfCollege,Branch,YearOfJoining,Email)>
+<!ELEMENT RegistrationID (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT NameOfCollege (#PCDATA)>
+<!ELEMENT Branch (#PCDATA)>
+<!ELEMENT YearOfJoining (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+]>
+
+<STUDENT>
+<INFO>
+<RegistrationID>18MCA01</RegistrationID>
+<Name>Bikram rongpi</Name>
+<NameOfCollege>NEHU</NameOfCollege>
+<Branch>MCA</Branch>
+<YearOfJoining>2005</YearOfJoining>
+<Email>bikram.rongpi@gmail.com</Email>
+</INFO>
+<INFO>
+<RegistrationID> 02</RegistrationID>
+<Name>Themboi</Name>
+<NameOfCollege>NEHU</NameOfCollege>
+<Branch>MCA</Branch>
+<YearOfJoining>1998</YearOfJoining>
+<Email>themboiyo@gmail.com</Email>
+</INFO>
+<INFO>
+<RegistrationID> 03</RegistrationID>
+<Name>Justin khatariya</Name>
+<NameOfCollege>NEHU</NameOfCollege>
+<Branch>MCA</Branch>
+<YearOfJoining>2001</YearOfJoining>
+<Email>Justink@gmail.com</Email>
+</INFO>
+</STUDENT>

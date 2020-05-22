@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inspection Form</title>
+    <style media="screen">
+      body { min-height:100vh; display:grid; align-items: center; }
+      form { width:70%; margin:0 auto; padding:1em; border:1px solid #000; }
+      form > p { display:grid; grid-template-columns:1fr 2fr; grid-gap:1em; }
+      div.buttonfields { display:grid; grid-template-columns:auto auto; align-items:center; justify-content: center; }
+      input { background-color:#e9e9e9; font-weight: bold; }
+      textarea { background-color:#f2f2f2; font-family: Times New Roman; font-style: italic; color green; }
+      button { width:200px; }
+      button[type='submit'] { padding:10px; margin-top:10px; }
+      button[type='reset'] { padding:10px; margin-top:10px; margin-left:10px; }
+
+    </style>
+  </head>
+  <body>
+
+<form class="" action="index.html" method="post">
+  <p>
+    <label>Name of the employee  :</label>
+    <input type="text" name="empname" value="">
+  </p>
+  <p>
+    <label>Email address :</label>
+    <input type="text" name="" value="">
+  </p>
+  <p>
+    <label>Institute Name:</label>
+    <input type="text" name="" value="">
+  </p>
+  <p>
+    <label>Work Location:</label>
+    <input type="text" name="" value="">
+  </p>
+  <p>
+    <label>Permanent employee:</label>
+    <span class="">
+      <label><input type="radio" name="pe" value="yes"> Yes</label>
+      <label><input type="radio" name="pe" value="no"> No</label>
+    </span>
+  </p>
+  <p>
+    <label>Query/Suggestions:</label>
+    <textarea name="Suggestions" ></textarea>
+  </p>
+
+  <div class="buttonfields">
+    <button type="submit" name="button">Submit</button>
+    <button type="reset" name="button">Reset</button>
+  </div>
+
+
+
+</form>
+
+  </body>
+</html>
