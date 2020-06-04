@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My First Paragraph.</p>
+
+<p id="demo"></p>
+
+
+<p>
+                Enter first Value:
+                <input type="text" id="txt1" name="text1" >
+                Enter second Value:
+                <input type="text" id="txt2" name="text2" >
+              </p>
+              
+              
+              <script>
+        function RESULT() {
+
+	
+    x = document.getElementById("txt1").value;
+  y = document.getElementById("txt2").value;
+
+  if (isNaN(x) && isNaN(y)) {
+    return x + y; // CHAR + CHAR
+  }
+  else if(!isNaN(x) && !isNaN(y)) { // this one add
+    return +x + +y; 
+  }
+  else if(!isNaN(x) && isNaN(y)) { // num + char
+    return 'Not compaitible__';
+  }
+  else if(isNaN(x) && !isNaN(y)) { // char + num
+    return 'Not compaitible';
+  }         
+  return 'Just hanging'; // JK
+}
+
+ alert(RESULT());
+//document.getElementById("demo").innerHTML =RESULT();
+</script>
+</body>
+</html> 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Biक्रम Rongpi. TimeCop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--    -->
+<!--    
+<script type="text/javascript" src="/Assignments/Classwork/enter/scripts/scripts.js"></script>
+<link rel="stylesheet" type="text/css" href="/Assignments/Classwork/enter/css/style.css">
+
+-->
+<!--    -->
+<script>        
+  function RESULT() {
+
+x = prompt('Enter x ');
+y = prompt('Enter y ');
+
+if (isNaN(x) && isNaN(y)) {
+return x + y; // CHAR + CHAR
+}
+else if(!isNaN(x) && !isNaN(y)) { // this one add
+return +x + +y; 
+}
+else if(!isNaN(x) && isNaN(y)) { // num + char
+return 'Not compaitible__';
+}
+else if(isNaN(x) && !isNaN(y)) { // char + num
+return 'Not compaitible';
+}         
+return 'Just hanging'; // JK
+}
+
+//console.log(RESULT());
+// expected output: "Not a Number!"
+document.getElementById("demo").innerHTML =RESULT();
+</script>
+</head>
+<body>
+  <h1 id="demo"></h1>
+  
+                
+                
+                
+  </body>
+</html>
+
+
+
+

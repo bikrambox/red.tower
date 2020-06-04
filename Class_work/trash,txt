@@ -1,0 +1,175 @@
+
+        function sum() {
+            var txtFirstNo = document.getElementById('txtFirstNo').value;
+            var txtSecondNo = document.getElementById('txtSecondNo').value;
+            var result = parseInt(txtFirstNo) + parseInt(txtSecondNo);
+            if (txtFirstNo || txtSecondNo == isNaN) {
+                document.getElementById('txtResult').value = result;
+            }
+             
+            else if(txtFirstNo || txtSecondNo == isNaN){
+                document.getElementById('txtResult').value = 'result';
+            }
+             
+        }
+
+
+
+
+______________________________________________\
+
+{
+            var txtFirstNo = document.getElementById('txtFirstNo').value;
+            var txtSecondNo = document.getElementById('txtSecondNo').value;
+            var result = parseInt(txtFirstNo) + parseInt(txtSecondNo);
+            if (txtFirstNo || txtSecondNo == isNaN) {
+                document.getElementById('txtResult').value = result;
+            }
+             
+            else if(txtFirstNo || txtSecondNo == isNaN){
+                document.getElementById('txtResult').value = 'result';
+            }
+             
+        }
+
+
+
+___________________________
+
+
+
+
+
+
+
+        function RESULT() {
+
+	x = prompt('Enter x ');
+    y = prompt('Enter y ');
+
+  if (isNaN(x && y)) {
+    return 'Not a Number!';
+  }
+  else if(!isNaN(y && x)) {
+    return +x + +y;
+  }
+  return 'Not a number too'; //
+}
+
+console.log(RESULT());
+
+
+
+
+
+
+function myFunction() {
+  var y = document.getElementById("txt1").value;
+  var z = document.getElementById("txt2").value;
+  var spit = +y + +z;
+  document.getElementById("ress").innerHTML = spit;
+}
+
+
+
+
+
+        function RESULT() {
+          
+
+	x = prompt('Enter x ');
+    y = prompt('Enter y ');
+
+  if (isNaN(x) && isNaN(y)) {
+    return x + y; // CHAR + CHAR
+  }
+  else if(!isNaN(x) && !isNaN(y)) { // this one add
+    return +x + +y; 
+  }
+  else if(!isNaN(x) && isNaN(y)) { // num + char
+    return 'Not compaitible__';
+  }
+  else if(isNaN(x) && !isNaN(y)) { // char + num
+    return 'Not compaitible';
+  }         
+  return 'Just hanging'; // JK
+}
+
+console.log(RESULT());
+// expected output: "Not a Number!"
+
+_____________________________________________________________________________
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1 id="demo"></h1>
+
+              
+              
+              <script>        
+              function RESULT() {
+
+	x = prompt('Enter x ');
+    y = prompt('Enter y ');
+
+  if (isNaN(x) && isNaN(y)) {
+    return x + y; // CHAR + CHAR
+  }
+  else if(!isNaN(x) && !isNaN(y)) { // this one add
+    return +x + +y; 
+  }
+  else if(!isNaN(x) && isNaN(y)) { // num + char
+    return 'Not compaitible__';
+  }
+  else if(isNaN(x) && !isNaN(y)) { // char + num
+    return 'Not compaitible';
+  }         
+  return 'Just hanging'; // JK
+}
+
+//console.log(RESULT());
+// expected output: "Not a Number!"
+document.getElementById("demo").innerHTML =RESULT();
+</script>
+</body>
+</html> 
+
+--------------------------------------------------------------------
+
+
+
+<!DOCTYPE html>
+    <head>
+        <title>I was here.</title>
+        
+    <script type="text/javascript">
+        function sum() {
+            var txtFirstNo = document.getElementById('txtFirstNo').value;
+            var txtSecondNo = document.getElementById('txtSecondNo').value;
+            // var result = parseInt(txtFirstNo) + parseInt(txtSecondNo);
+            if (txtFirstNo || txtSecondNo == isNaN) {
+                document.getElementById('txtResult').value = result;
+            }
+             
+            else if(txtFirstNo || txtSecondNo == isNaN){
+                document.getElementById('txtResult').value = 'result';
+            }
+             
+        }
+    </script>
+    </head>
+<body>
+    <div style="border:1px solid gray;width: 450px; height:300px">
+        <h2>Add two textbox values without pressing anybuttons</h2>
+        <input type="text" id="txtFirstNo" placeholder="please enter First Number" onkeyup="sum()" />
+        <input type="text" id="txtSecondNo" placeholder="please enter Second Number" onkeyup="sum()" />
+        <br />
+        <div style="padding-top:10px">
+            Result:
+            <input type="text" id="txtResult" />
+        </div></div>
+
+</body>
+</html>

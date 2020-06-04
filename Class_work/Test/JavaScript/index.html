@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <title>I was here.</title>
+        
+    <script type="text/javascript">
+        function sum() {
+            var txtFirstNo = document.getElementById('txtFirstNo').value;
+            var txtSecondNo = document.getElementById('txtSecondNo').value;
+            // var result = parseInt(txtFirstNo) + parseInt(txtSecondNo);
+            if (txtFirstNo || txtSecondNo == isNaN) {
+                document.getElementById('txtResult').value = result;
+            }
+             
+            else if(txtFirstNo || txtSecondNo == isNaN){
+                document.getElementById('txtResult').value = 'result';
+            }
+             
+        }
+    </script>
+    </head>
+<body>
+    <div style="border:1px solid gray;width: 450px; height:300px">
+        <h2>Add two textbox values without pressing anybuttons</h2>
+        <input type="text" id="txtFirstNo" placeholder="please enter First Number" onkeyup="sum()" />
+        <input type="text" id="txtSecondNo" placeholder="please enter Second Number" onkeyup="sum()" />
+        <br />
+        <div style="padding-top:10px">
+            Result:
+            <input type="text" id="txtResult" />
+        </div></div>
+
+</body>
+</html>

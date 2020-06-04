@@ -1,0 +1,110 @@
+var inputArray = [];
+var size = 5; //Maximum Array size
+
+for(var i=0; i<size; i++) {
+	
+	//Taking Input from user
+	inputArray[i] = prompt('Enter Element ' + (i+1));
+}
+
+//Print the array in the console.
+console.log(inputArray);
+
+
+
+
+var arr = [];                               // define our array
+
+for (var i = 0; i < 5; i++) {              // loop 10 times
+  arr.push(prompt('Enter the numbers: ' + (i+1))); // push the value into the array
+}
+
+alert('All numbers: ' + arr.join(', '));     // alert the results
+
+
+
+
+
+
+
+var myArray =[]; //Empty array
+var size = 5; //Maximum Array size
+for(var i=0; i<size; i++) {
+	
+	//Taking Input from user
+	myArray[i] = prompt('Enter Element ' + (i+1));
+}
+var secondLargest = myArray.sort(function(a,b){return a - b})[myArray.length-2];
+alert(secondLargest);
+
+
+
+
+var x = +y + +z;
+
+
+
+function myFunction() {
+    var y = document.getElementById("txt1").value;
+    var z = document.getElementById("txt2").value;
+    var spit = +y + +z;
+    document.getElementById("ress").innerHTML = spit;
+  }
+
+
+
+
+
+
+function myFunction() {
+    var y = document.getElementById("txt1").value;
+    var z = document.getElementById("txt2").value;
+    var spit;
+
+    if (y === str || z === str ) {
+        spit = y + '' + z ;
+      } 
+      else {
+         spit = +y + +z;
+      }
+
+
+    document.getElementById("ress").innerHTML = spit;
+  }
+
+
+
+
+
+function alphanumeric(inputtxt)
+{ 
+var letters = /^[a-zA-Z]+$/;
+if(inputtxt.value.match(letters))
+{
+alert('Your registration number have accepted : you can try another');
+document.form1.text1.focus();
+return true;
+}
+else
+{
+alert('Please input alphanumeric characters only');
+return false;
+}
+}
+
+
+
+
+function myFunction(){
+
+var myArray =[]; //Empty array
+var size = 5; //Maximum Array size
+for(var i=0; i<size; i++) {
+	
+	//Taking Input from user
+	myArray[i] = prompt('Enter Element ' + (i+1));
+}
+var secondLargest = myArray.sort(function(a,b){return a - b})[myArray.length-2];
+alert("Entered elements are: " + myArray + "  And the Second Largest number is: " + secondLargest);
+
+}
