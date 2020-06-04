@@ -35,6 +35,7 @@ function RESULT() {
   return 'Just hanging'; // JK
   }
   
-  //console.log(RESULT());
+  //console.log(RESULT()); //You can use this too
+  //alert(RESULT()); //You can use this too
   // expected output: "Not a Number!"
   document.getElementById("mandex").innerHTML =RESULT();
