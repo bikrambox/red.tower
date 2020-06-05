@@ -1,0 +1,64 @@
+
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(12deg, #ffffff 0%, #d3d3d3 100%);
+    margin: 60px auto;
+    width: 80%;
+}
+.result{
+    color: #412e2e;
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#messagee{
+    color: #5e5e5e;
+
+}
+#error_message{
+    color: #000000;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button {
+    background-color: #d3d3d3;
+    border: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif; font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+/*  
+
+*/
+  input[type=text], select {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #44ff00;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+  /*__________________________________________*/
+
+
+  
+a { text-decoration: none; color: rgb(53, 53, 53); }
+a:hover { text-decoration: underline; }
+
+p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
+
+h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+h1 { font-size: 3em;  }
+h2 { font-size: 2.7em; }
+h3 { font-size: 2.3em; }
+h4 { font-size: 1.9em; }

@@ -16,8 +16,6 @@ function RESULT() {
              
         }
 
-
-
         These are not working yet. Stucked at input.
    */
   if (isNaN(x) && isNaN(y)) {
